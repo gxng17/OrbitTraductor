@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Money Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>💰 Money Converter</h1>
+
+    <input id="amount" type="number" placeholder="Enter amount">
+
+
+    <div class="converter">
+
+        <select id="fromCurrency">
+            <option value="USD">🇺🇸 USD Dollar</option>
+            <option value="MXN">🇲🇽 MXN Peso</option>
+            <option value="EUR">🇪🇺 Euro</option>
+            <option value="GBP">🇬🇧 Pound</option>
+        </select>
+
+
+        <span>➡️</span>
+
+
+        <select id="toCurrency">
+            <option value="MXN">🇲🇽 MXN Peso</option>
+            <option value="USD">🇺🇸 USD Dollar</option>
+            <option value="EUR">🇪🇺 Euro</option>
+            <option value="GBP">🇬🇧 Pound</option>
+        </select>
+
+    </div>
+
+
+    <button onclick="convert()">Convert</button>
+
+
+    <h2 id="result">
+        Result appears here
+    </h2>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
